@@ -36,6 +36,18 @@ func main(){
 	var y int = -4500
 	fmt.Printf("Type: %T, value %v",x,x)
 	fmt.Printf("Type: %T, value %v",y,y)
+
+	// Go float datatype
+	// Float datatypes are used to store both positive and negative numbers with decimal places
+	// There are two types of float datatypes:float32(contain 32 bits) and float64(contain 64 bit)
+	// The default float is float64
+
+
+	var k float32 = 34.89
+	var l float64 =  3.4e+38
+	fmt.Printf("Type %T, Value %v",k,k)
+	fmt.Printf("Type %T, Value %v",l,l)
 	
+
 }
 
