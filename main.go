@@ -47,7 +47,18 @@ func main(){
 	var l float64 =  3.4e+38
 	fmt.Printf("Type %T, Value %v",k,k)
 	fmt.Printf("Type %T, Value %v",l,l)
-	
+
+	// Go string data types
+	// The string data type is used to store a sequence of characters(texts).They must be enclosed in double quotes
+
+	var n string = "Ondeyo Stephen Omondi"
+	var m string
+	j := "My github username is Stephen882-pixel"
+	fmt.Printf("Type %T, Value %v",n,n)
+	fmt.Printf("Type %T, Value %v",m,m)
+	fmt.Printf("Type %T, Value %v",j,j)
+		
+
 
 }
 
