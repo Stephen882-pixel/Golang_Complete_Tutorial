@@ -42,4 +42,30 @@ func main(){
 	fmt.Println(len(myslice3))
 	fmt.Println(cap(myslice3))
 
+
+	// Accessing elements of a slice
+	set5 := []int{10,20,30}
+	fmt.Println(set5[0])
+	fmt.Println(set5[2:])
+
+	// Change elements in a slice
+	set5[1] =40
+	fmt.Println(set5)
+
+	// Appending elements in a slice
+	set5 = append(set5,60,70,80)
+	fmt.Printf("Set = %v\n",set5)
+
+	// Appending one slice to another 
+
+	set6 := []string{"Kelvin","Austin","Rihanna","Stephen"}
+	fmt.Println(set6)
+
+	set7 := []string{"Mangoes","Bananas","Apple","Carrots"}
+	fmt.Println(set7)
+
+	set7 =  append(set7, set6... )
+	fmt.Println(set7)
+
+
 }
